@@ -1,0 +1,34 @@
+# Fichier requirements.txt pour le projet de détection d'anomalies
+# Détection d'anomalies environnementales pour véhicules autonomes
+
+# Vision par ordinateur et traitement d'images
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+Pillow>=10.0.0
+
+# Deep Learning et modèles
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Modèles de fondation
+open-clip-torch>=2.20.0
+transformers>=4.35.0
+ultralytics>=8.0.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Utilitaires
+dataclasses  # Pour Python < 3.7, sinon inclus
+typing-extensions>=4.5.0
+tqdm>=4.65.0
+
+# Visualisation et debugging
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Gestion des chemins et fichiers
+pathlib  # Inclus dans Python 3.4+
